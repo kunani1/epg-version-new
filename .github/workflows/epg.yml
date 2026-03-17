@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit data files
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "kunani1"
+          git config user.email "kunanisaitarun55@gmail.com"
           git add data/*.json
           git commit -m "Update EPG data" || echo "No changes"
           git push
